@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4efe6de-fd83-4b47-a8ef-c5726457b20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/builder/DesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/builder/NonDesignpattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/BDDStyleRestAssuredcases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/NOnBDDStyleTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/PATCH/nonBDDStylepatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/POST/BBDsStylePOST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/POST/nonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/POST/testng-post.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/PUT/nonBDDPUT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/NOnBDDStyleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/GET/NOnBDDStyleTestNG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BBDsStylePOST.executor": "Run",
     "Application.NonBDDStyle.executor": "Run",
     "Application.RestAssuredcases.executor": "Run",
     "Application.hello.executor": "Run",
@@ -57,14 +52,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BBDsStylePOST.BBDsStylePOSTPOsitive.executor": "Run",
+    "TestNG.BBDsStylePOST.executor": "Run",
+    "TestNG.C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/src/test/java/org/testingAcademy/suits/POST/testng-post.xml.executor": "Run",
     "TestNG.C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/testng.xml.executor": "Run",
     "TestNG.NOnBDDStyleTestNG.executor": "Run",
+    "TestNG.nonBDDPUT.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/src/test/java/org/testingAcademy/suits/POST",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/testng.xml">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\RestAssuredAPIAutommation\src\test\java\org\testingAcademy\suits\POST" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="BDDStyleRestAssuredcases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testingAcademy.suits.GET.BDDStyleRestAssuredcases" />
       <module name="RestAssuredAPIAutommation" />
@@ -91,6 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BBDsStylePOST.BBDsStylePOSTPOsitive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutommation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testingAcademy.suits.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testingAcademy.suits.POST" />
+      <option name="MAIN_CLASS_NAME" value="org.testingAcademy.suits.POST.BBDsStylePOST" />
+      <option name="METHOD_NAME" value="BBDsStylePOSTPOsitive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutommation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -101,8 +124,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NOnBDDStyleTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutommation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testingAcademy.suits.GET.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testingAcademy.suits.GET" />
+      <option name="MAIN_CLASS_NAME" value="org.testingAcademy.suits.GET.NOnBDDStyleTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BBDsStylePOST.BBDsStylePOSTPOsitive" />
+        <item itemvalue="TestNG.NOnBDDStyleTestNG" />
         <item itemvalue="TestNG.C:/Users/admin/IdeaProjects/RestAssuredAPIAutommation/testng.xml" />
         <item itemvalue="Application.BDDStyleRestAssuredcases" />
         <item itemvalue="Application.hello" />
@@ -119,5 +161,20 @@
       <updated>1708232841773</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/testingAcademy/suits/POST/BBDsStylePOST.java</url>
+          <line>10</line>
+          <properties class="org.testingAcademy.suits.POST.BBDsStylePOST" method="BBDsStylePOSTPOsitive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
